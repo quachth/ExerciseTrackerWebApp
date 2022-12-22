@@ -1,0 +1,83 @@
+body {
+  align-items: left;
+  background-color: #a5e9bc;
+  color: rgb(3, 63, 13);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+  margin: auto;
+  min-height: 90vh;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link::after {
+  content:"\a";
+  white-space: pre;
+}
+
+#dropdownmenu {
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-size: 19px;
+  vertical-align: top;
+  height: 45px
+}
+
+
+#name {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+table {
+  border-style: double;
+  border: 6px solid rgb(0, 100, 17);
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 75%;
+}
+
+th {
+  border: 2px solid rgb(99, 6, 86);
+  color: rgb(99, 6, 86); 
+  padding: 32px;
+}
+
+td {
+  border: 2px solid rgb(99, 6, 86);
+  color: rgb(99, 6, 86); 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+tr {
+  border: 2px solid rgb(0, 100, 17);
+  padding-top: 10px;
+}
+
+input {
+  font-size: 19px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  vertical-align: top;
+  height: 39px
+}
+
+button {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
